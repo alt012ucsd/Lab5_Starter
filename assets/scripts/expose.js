@@ -2,6 +2,7 @@
 
 window.addEventListener('DOMContentLoaded', init);
 
+const jsConfetti = new JSConfetti();
 function init() {
   var hornSelect = document.getElementById('horn-select');
       var hornImage = document.querySelector('img[src="assets/images/no-image.png"]');
@@ -45,13 +46,9 @@ function init() {
 
       playButton.addEventListener('click', function () {
         audio.play();
-        const jsConfetti = new JSConfetti();
-        jsConfetti.addConfetti();
-
+      
         if (hornSelect.value === 'party-horn') {
-          confetti({
-            particleCount: 100,
-          });
+          jsConfetti.addConfetti();
         }
       });
     }
