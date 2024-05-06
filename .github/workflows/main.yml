@@ -1,5 +1,7 @@
 name: Unit Tests # name of the test
 
+run: npm test ./__tests__/unit.test.js
+
 on: [push] # the Github Action will activate "on" the event that you "push" to the repo
 
 jobs: # the things being executed
