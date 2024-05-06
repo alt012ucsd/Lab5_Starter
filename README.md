@@ -6,6 +6,6 @@ Andy Tran
 
 2.) I would use a unit test to test the "max message length feature, as its most likely scaled to a single component. There isn't any other interaction with other things, making a unit test suitable for ensuring the function works.
 
-modified expose.html: https://alt012ucsd.github.io/Lab5_Starter/expose
+modified expose.html: https://alt012ucsd.github.io/Lab5_Starter/expose.html
 
 modified explore.html: https://alt012ucsd.github.io/Lab5_Starter/explore.html
